@@ -1120,7 +1120,7 @@ export default {
             maxLevel: 5,
             special: '',
             startPersonnel: 0,
-            startVehicles: ['Non. You can buy max. 2 Vehicles'],
+            startVehicles: ['None. You can buy max. 2 Vehicles'],
         },
         15: {
             caption: 'Police station (Small station)',
@@ -1131,11 +1131,11 @@ export default {
             levelcost: [
                 '1. 10.000',
                 '2. 50.000',
-                '3.-4. 100.000',
+                '3.-5. 100.000',
                 'Conversion to normal guard: difference price to normal guard',
             ],
             maxBuildings: '1.700 together with small police stations',
-            maxLevel: 4,
+            maxLevel: 5,
             special:
                 'From the 24th police station onwards, the costs for the new construction of a police station are calculated according to the following formula: <code>(100.000+200.000*LOG<sub>2</sub>(Number of existing police stations − 22)) / 2</code>. The Coins price remains constant!',
             startPersonnel: 2,
@@ -1256,7 +1256,7 @@ export default {
         'Firefighters': {
             vehicles: {
                 'Fire trucks': [0, 1, 13, 18],
-                'WaterTanker': [7],
+                'Water Tanker': [7],
                 'Special vehicles': [2, 3, 4, 6, 8, 9, 12, 62, 63],
                 'Wildland vehicles': [30, 31, 32, 33, 34, 38, 39, 40, 41],
                 'Airport Vehicles': [17],
@@ -1269,9 +1269,9 @@ export default {
             vehicles: {
                 'Ambulances': [5, 27, 48, 49, 50, 57, 58, 61],
                 'HEMS': [11],
-                'First Responder': [15],
+                'First Responders': [15],
                 'Rescue Boat': [25],
-                'Other EMS Vehicle': [20, 28, 29, 59, 60],
+                'Other EMS Vehicles': [20, 28, 29, 59, 60],
             },
             color: '#ffa500',
         },
